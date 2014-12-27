@@ -2,7 +2,7 @@
   "name": "MineCraft_Server_Starter",
   "version": "0.1.0",
   "dependencies": {
-    "socket.io": "~4.10.2",
-    "express": "~4.10.6"
+    "express": "~4.10.2",
+    "socket.io": "~1.2.1"
   }
 }
