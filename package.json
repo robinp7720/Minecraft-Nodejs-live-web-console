@@ -1,5 +1,5 @@
 {
-  "name": "MineCraft_Server_Starter",
+  "name": "MineCraft_Server_Web_Console",
   "version": "0.1.0",
   "dependencies": {
     "socket.io": "~0.9.8"
