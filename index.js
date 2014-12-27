@@ -94,7 +94,6 @@ var rl = readline.createInterface({
 });
 
 rl.on('line', function (cmd) {
-  console.log('You just typed: '+cmd);
   if (cmd=="logout"){
   	io.sockets.connected[clientsocket].emit('chat message', "Your session has been killed");
 	clientsocket = "";
